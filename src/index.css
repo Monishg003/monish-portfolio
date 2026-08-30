@@ -1,0 +1,68 @@
+:root {
+  --primary: #c0392b;
+  --dark-grey: #212121;
+  --bg: #000000;
+  --text: #ffffff;
+  --muted: #bdbdbd;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .caret,
+  .api-card.is-on,
+  .console-strip.is-on {
+    animation: none;
+  }
+
+  .float-chip,
+  .console-line {
+    transition: none;
+  }
+}
