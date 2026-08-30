@@ -9,7 +9,7 @@ export const profile = {
   address: 'Chennai, India',
   maps: 'https://www.google.com/maps/search/?api=1&query=Chennai%2C+India',
   experience: '2+ Years',
-  resume: '/Resume_latest.pdf',
+  resume: '/Resume_01.pdf',
   linkedin: 'https://www.linkedin.com/in/monish-g-27b157258',
   github: 'https://github.com/Monishg003',
   roles: [
